@@ -1,0 +1,24 @@
+
+;; ----- smex-history -----
+(
+ shell
+ help-with-tutorial-spec-language
+ 2C-split
+ delete-frame
+ make-frame
+ text-mode
+ recover-file
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 2)
+ (shell . 2)
+ (org-mode . 2)
+ (help-with-tutorial-spec-language . 2)
+ (recover-file . 1)
+ (text-mode . 1)
+ (make-frame . 2)
+ (delete-frame . 1)
+ (2C-split . 1)
+)
