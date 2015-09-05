@@ -87,5 +87,11 @@
 	    (message "init completed in %.2fms"
 		     (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
+(global-set-key (kbd "C-?") 'help-command)
+(global-set-key (kbd "M-?") 'mark-paragraph)
+(global-set-key (kbd "C-h") 'delete-backward-char)
+(global-set-key (kbd "M-h") 'backward-kill-word)
+
 (provide 'init)
+
 
